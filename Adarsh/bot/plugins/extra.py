@@ -22,7 +22,7 @@ async def maintainers(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://github.com/adarsh-goel")
+                                InlineKeyboardButton("Developer💻", url=f"https://t.me/forward_guruji")
                             ]
                         ]
                     ),
@@ -30,7 +30,7 @@ async def maintainers(b,m):
                     disable_web_page_preview=True)
             
          
-@StreamBot.on_message(filters.regex("follow❤️"))
+@StreamBot.on_message(filters.regex("follow🤒"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/adarsh-goel")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://t.me/forward_guruji")
                             ]
                         ]
                     ),
